@@ -48,6 +48,12 @@ body {
     font-size: 20px;
     color: #fcb103;
 }
+
+.info {
+    width: 100%;
+    margin: auto;
+}
+
 .contact-lang{
 margin-top: 10%;
 }
