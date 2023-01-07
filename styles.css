@@ -7,7 +7,7 @@ body {
 .line {
     width: 60%;
     margin: auto;
-    background: #fcb103;
+    background: #3a4599;
     display: flex;
     height: 1%;
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 8%;
+    height: 12%;
 }
 
 .navbar {
@@ -28,20 +28,23 @@ body {
     justify-content: left;
     align-items: center;
     height: 4%;
-    background-color: grey;
+    background-color: #cfcfcf;
 }
 
 .navbar-item {
     padding-left: 20px;
     padding-right: 10px;
-    color: #fcb103;
+    color: #3a4599;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+
 }
 
 .logo {
-    width: 342;
-    height: 100px;
+    /* width: 342;
+    height: 100px; */
 }
 
 .logo-text {
@@ -50,12 +53,14 @@ body {
 }
 
 .info {
-    width: 100%;
+    width: 80%;
     margin: auto;
+    display: block;
+    padding-top: 2%;
 }
 
 .contact-lang{
-margin-top: 10%;
+    margin-top: 10%;
 }
 .header-right{
     height: 100%;
