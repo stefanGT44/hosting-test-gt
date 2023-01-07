@@ -32,24 +32,26 @@ body {
 }
 
 .navbar-item {
-    padding-left: 20px;
-    padding-right: 10px;
     color: #3a4599;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
     font-family: 'Titillium Web';
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.logo {
-    /* width: 342;
-    height: 100px; */
+.language-label {
+    font-family: 'Titillium Web';
+    text-decoration: none;
+    color: black;
 }
 
 .logo-text {
     font-size: 20px;
-    color: #fcb103;
+    color: #f6a447;
+    font-family: 'Titillium Web';
+    font-weight: bold;
 }
 
 .info {
@@ -76,5 +78,5 @@ margin: auto;
 }
 
 .menu-items{
-    margin-left: 7%;
+    margin-left: 3%;
 }
