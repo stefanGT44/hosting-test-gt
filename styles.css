@@ -27,11 +27,22 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 4%;
+    height: 6%;
     background-color: #cfcfcf;
 }
 
 .navbar-item {
+    color: #3a4599;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Titillium Web';
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #3a4599;
+}
+
+.navbar-item-last {
     color: #3a4599;
     text-decoration: none;
     font-size: 19px;
